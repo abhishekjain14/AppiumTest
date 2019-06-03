@@ -8,7 +8,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import io.appium.java_client.AppiumDriver;
@@ -19,7 +18,6 @@ public class CalculatorTest {
 	
 	AppiumDriver<MobileElement> driver;
 	
-	@BeforeMethod
 	@BeforeClass
 	public void setUp() throws MalformedURLException{
 		//Set the Desired Capabilities
